@@ -53,7 +53,7 @@ include 'header4.php';
    ?>
             </div>
             <p style="font-size: 14px;">Please type in your information to create an account.</p>
-            <form action="db/sign-up.inc.php" method="post">
+            <form action="db/sign-up.inc.php" method="post" autocomplete="off">
                <div class="input-field">
                   <img src="images/icons/user sign in.svg" alt="">
                   <input type="text" name="username" placeholder="Username">

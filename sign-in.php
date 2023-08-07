@@ -41,7 +41,7 @@ include 'header2.php';
                ?>
             </div>
             <p>Log in with your information that you entered during your <br>registration.</p>
-            <form action="db/sign-in.inc.php" method="post">
+            <form action="db/sign-in.inc.php" method="post" autocomplete="off">
                <div class="input-field">
                   <img src="images/icons/user sign in.svg" alt="">
                   <input type="text" name="username" placeholder="myemailaddress@hotmail.com">
